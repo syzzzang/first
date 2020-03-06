@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* ascendingselectionsort(int *arr, int length){
+void ascendingselectionsort(int *arr, int length){
     int temp=0;
     int min=0;
     for(int j=0;j<length-1;j++){
@@ -22,9 +22,8 @@ int* ascendingselectionsort(int *arr, int length){
         printf("\n");
 
     }
-    return arr;
 }
-int descendingselectionsort(int *arr, int length){
+void descendingselectionsort(int *arr, int length){
     int temp=0;
     int max=0;
     for(int i=0;i<length-1;i++){
